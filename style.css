@@ -34,12 +34,9 @@
     font-weight: 400;
     text-decoration: none;
     line-height: 28px;
-
 }
 .center{
     width: 30%;
-    
-
 }
 .right{
     width: 20%;   
@@ -48,7 +45,9 @@
     display: flex;
     justify-content: space-around;
     flex-flow: wrap;
-
+}
+.right ul li{
+    list-style: none;
 }
 .header-content{
     display: flex;
@@ -69,7 +68,7 @@
     color: #ffffff;
     font-size: 28px;
     font-weight: 400;
-    width: 50%;
+    width: 45%;
     text-align: center;
     margin-top: 20px;
 }
@@ -83,5 +82,10 @@
     font-size: 20px;
     border: 0;
     margin-top: 100px;
-
+}
+.header-content button:active{
+    background-color:rgb(10, 75, 115);
+}
+.desktop-menu ul li:hover{
+    transform: scale(1.3);
 }
