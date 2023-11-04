@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.desktop-header-light{
+    height: 1042px;
+    background-image: url('images/Rectangle 9 (1).png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+
+}
+.desktop-navbar{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.desktop-menu{
+    width: 40%;
+    overflow: hidden;
+}
+.desktop-menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.desktop-menu ul li a{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 28px;
+
+}
+.center{
+    width: 30%;
+    
+
+}
+.right{
+    width: 20%;   
+}
+.right ul{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-content h1{
+    width: 50%;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 74px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.header-content h4{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 400;
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+}
+.header-content button{
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    background-color: #2091F9;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 20px;
+    border: 0;
+    margin-top: 100px;
+
+}
