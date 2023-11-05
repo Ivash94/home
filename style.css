@@ -1,4 +1,7 @@
-*{
+body{
+    background-color: gray;
+}
+/* *{
     box-sizing: border-box;
     margin: 0;
 }
@@ -88,4 +91,4 @@
 }
 .desktop-menu ul li:hover{
     transform: scale(1.3);
-}
+} */
